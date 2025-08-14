@@ -61,7 +61,7 @@ const node = await createLibp2p({
 await node.start()
 
 // Automatically connect to the hardcoded relay
-const HARDCODED_RELAY_ADDRESS = '/ip4/34.23.42.104/tcp/8080/ws/p2p/12D3KooWA1bysjrTACSWqf6q172inxvwKHUxAnBtVgaVDKMxpZtx'
+const HARDCODED_RELAY_ADDRESS = '/ip4/34.73.155.58/tcp/8080/ws/p2p/12D3KooWA1bysjrTACSWqf6q172inxvwKHUxAnBtVgaVDKMxpZtx'
 
 async function connectToRelay() {
   try {
